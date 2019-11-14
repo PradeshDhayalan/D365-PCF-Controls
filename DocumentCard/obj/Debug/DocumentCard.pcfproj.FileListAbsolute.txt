@@ -1,0 +1,2 @@
+D:\Personal\Learning\PCF\MyProjects\DocumentCard\obj\Debug\DocumentCard.pcfprojAssemblyReference.cache
+D:\Personal\Learning\PCF\MyProjects\DocumentCard\obj\Debug\DocumentCard.pcfproj.CoreCompileInputs.cache

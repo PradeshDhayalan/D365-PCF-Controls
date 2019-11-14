@@ -1,0 +1,72 @@
+﻿  Restore completed in 67.19 ms for D:\Personal\Learning\PCF\MyProjects\DocumentCard\obj\PowerAppsTools_d365crnr\PowerAppsTools_d365crnr.cdsproj.
+  Restore completed in 66.08 ms for D:\Personal\Learning\PCF\MyProjects\DocumentCard\DocumentCard.pcfproj.
+  
+  > pcf-project@1.0.0 clean D:\Personal\Learning\PCF\MyProjects\DocumentCard
+  > pcf-scripts clean "--noColor" "--buildMode" "development" "--outDir" "D:\Personal\Learning\PCF\MyProjects\DocumentCard\out\controls" "--buildSource" "MSBuild"
+  
+  [15:1:20] [clean]  Initializing...
+  [15:1:20] [clean]  Cleaning build outputs...
+  [15:1:20] [clean]  Succeeded
+  Cleaning output directory: bin\Debug\, Intermediate directory: obj\Debug\ and Solution Packager working directory: obj\Debug\
+  Removing log file: bin\Debug\SolutionPackager.log and generated solution package: bin\Debug\PowerAppsTools_d365crnr.zip
+  
+  > pcf-project@1.0.0 build D:\Personal\Learning\PCF\MyProjects\DocumentCard
+  > pcf-scripts build "--noColor" "--buildMode" "development" "--outDir" "D:\Personal\Learning\PCF\MyProjects\DocumentCard\out\controls" "--buildSource" "MSBuild"
+  
+  [15:1:27] [build]  Initializing...
+  [15:1:27] [build]  Validating manifest...
+  [15:1:27] [build]  Validating control...
+  [15:1:33] [build]  Generating manifest types...
+  [15:1:33] [build]  Compiling and bundling control...
+  [BABEL] Note: The code generator has deoptimised the styling of D:\Personal\Learning\PCF\MyProjects\DocumentCard\node_modules\react-dom\cjs\react-dom.development.js as it exceeds the max of 500KB.
+  [Webpack stats]:
+  Hash: dd937219ac92017702cc
+  Version: webpack 4.28.4
+  Time: 31855ms
+  Built at: 11/14/2019 3:02:05 PM
+      Asset      Size  Chunks             Chunk Names
+  bundle.js  4.56 MiB    main  [emitted]  main
+  Entrypoint main = bundle.js
+  [./D365DocumentCard/DocumentCard.tsx] 5.84 KiB {main} [built]
+  [./D365DocumentCard/index.ts] 4.99 KiB {main} [built]
+  [./node_modules/office-ui-fabric-react/lib/ActivityItem.js] 48 bytes {main} [built]
+  [./node_modules/office-ui-fabric-react/lib/Announced.js] 45 bytes {main} [built]
+  [./node_modules/office-ui-fabric-react/lib/Autofill.js] 44 bytes {main} [built]
+  [./node_modules/office-ui-fabric-react/lib/Breadcrumb.js] 46 bytes {main} [built]
+  [./node_modules/office-ui-fabric-react/lib/Button.js] 42 bytes {main} [built]
+  [./node_modules/office-ui-fabric-react/lib/Calendar.js] 44 bytes {main} [built]
+  [./node_modules/office-ui-fabric-react/lib/Callout.js] 43 bytes {main} [built]
+  [./node_modules/office-ui-fabric-react/lib/Check.js] 41 bytes {main} [built]
+  [./node_modules/office-ui-fabric-react/lib/Checkbox.js] 44 bytes {main} [built]
+  [./node_modules/office-ui-fabric-react/lib/ChoiceGroup.js] 47 bytes {main} [built]
+  [./node_modules/office-ui-fabric-react/lib/index.js] 2.36 KiB {main} [built]
+  [./node_modules/react-dom/index.js] 1.32 KiB {main} [built]
+  [./node_modules/react/index.js] 189 bytes {main} [built]
+      + 779 hidden modules
+  [15:2:5] [build]  Generating build outputs...
+  [15:2:5] [build]  Succeeded
+  Running Solution Packager to build package type: Unmanaged bin\Debug\PowerAppsTools_d365crnr.zip
+  SolutionPackger CRM Solution Packaging Tool [Version 9.1.0.13]
+  c 2017 Microsoft Corporation.  All rights reserved
+  
+  
+  Packing D:\Personal\Learning\PCF\MyProjects\DocumentCard\obj\PowerAppsTools_d365crnr\obj\Debug\ to bin\Debug\PowerAppsTools_d365crnr.zip
+  
+  Processing Component: Entities
+  Processing Component: Roles
+  Processing Component: Workflows
+  Processing Component: FieldSecurityProfiles
+  Processing Component: Templates
+  Processing Component: EntityMaps
+  Processing Component: EntityRelationships
+  Processing Component: OrganizationSettings
+  Processing Component: optionsets
+  Processing Component: CustomControls
+   - D365Corner.D365DocumentCard
+  Processing Component: SolutionPluginAssemblies
+  Processing Component: EntityDataProviders
+  
+  Unmanaged Pack complete.
+  
+  Solution: bin\Debug\PowerAppsTools_d365crnr.zip generated.
+  Solution Package Type: Unmanaged generated.

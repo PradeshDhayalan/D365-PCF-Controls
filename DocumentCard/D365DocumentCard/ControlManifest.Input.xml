@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="D365Corner" constructor="D365DocumentCard" version="0.0.1" display-name-key="D365DocumentCard" description-key="D365DocumentCard for viewing the attachments of the form in Card View" control-type="standard">
+    <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
+    <property name="attachmentString" display-name-key="Attachment String Property" description-key="Property Description Key" of-type="SingleLine.Text" usage="bound" required="true" />
+    <!-- 
+      Property node's of-type attribute can be of-type-group attribute. 
+      Example:
+      <type-group name="numbers">
+        <type>Whole.None</type>
+        <type>Currency</type>
+        <type>FP</type>
+        <type>Decimal</type>
+      </type-group>
+      <property name="sampleProperty" display-name-key="Property_Display_Key" description-key="Property_Desc_Key" of-type-group="numbers" usage="bound" required="true" />
+    -->
+    <resources>
+      <code path="index.ts" order="1"/>
+      <!-- UNCOMMENT TO ADD MORE RESOURCES
+      <css path="css/D365DocumentCard.css" order="1" />
+      <resx path="strings/D365DocumentCard.1033.resx" version="1.0.0" />
+      -->
+    </resources>
+    <feature-usage>
+      <uses-feature name="WebAPI" required="true" />
+      <uses-feature name="WebAPI.retrieveMultipleRecords" required="true"/>
+      <uses-feature name="WebAPI.retrieveRecord" required="true"/>
+      <uses-feature name="Utility" required="true" />
+    </feature-usage>
+  </control>
+</manifest>
